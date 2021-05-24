@@ -31,6 +31,7 @@ Coding challenge where you build a Raffle App client that interact with a RESTfu
 
 - Complete your client application according to the Technical requirements below.
 - You may use any 3rd-party libraries or packages for functionality or styling.
+  - We recommend you use something like Bootstrap or Material UI or others to style you app.
 
 ## Technical Requirements
 
