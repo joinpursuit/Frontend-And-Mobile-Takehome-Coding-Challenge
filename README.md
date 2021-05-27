@@ -8,7 +8,7 @@ Coding challenge where you build a Raffle App client that interact with a RESTfu
 
 ### Web
 
-- A [Codesandbox](https://codesandbox.io/) account
+- Node.js account
 - Knowledge or JavaScript and React
 
 ### Mobile
@@ -20,8 +20,8 @@ Coding challenge where you build a Raffle App client that interact with a RESTfu
 
 ### Web
 
-1. In Codesandbox create a blank React App.
-   - If you don't know how to create a React App in Codesandbox, read [this tutorial](https://react.school/hello-react)
+1. Create a new React App.
+   - You may use `create-react-app`
 
 ### Mobile
 
@@ -58,7 +58,7 @@ Use the details and endpoints of the API below to accomplish the Raffle App func
 | `POST` | `/api/raffles`                  | Create a raffle                                            | `{ "name": "My first Raffle", "secret_token": "s3CrE7" }`                                              |
 | `GET`  | `/api/raffles/:id`              | Retrieve a raffle by id                                    | n/a                                                                                                    |
 | `GET`  | `/api/raffles/:id/participants` | Retrieve all participants of a raffle                      | n/a                                                                                                    |
-| `POST` | `/api/raffles/:id/participants` | Sign up a participants for a raffle                        | `{ "firstname": "Jane", "lastname": "Doe", "email": "jdoe@email.com", "phone": "+1 (917) 555-1234", }` |
+| `POST` | `/api/raffles/:id/participants` | Sign up a participant for a raffle                         | `{ "firstname": "Jane", "lastname": "Doe", "email": "jdoe@email.com", "phone": "+1 (917) 555-1234", }` |
 | `PUT`  | `/api/raffles/:id/winner`       | Pick a winner from the participants at random for a raffle | `{ "secret_token": "s3CrE7" }`                                                                         |
 
 #### Notes
@@ -101,12 +101,7 @@ Displays a form where a user (the raffle admin) can input their secret token and
 
 - We think this challenge would take ~7 hours to complete, so allocate your time appropriately.
 - You must submit your solution no later than **Monday, May 31st at 11:59pm.**
-- Submit the link to your code using the [submission form](https://docs.google.com/forms/d/e/1FAIpQLSeY0nBqtXTV06b2CmAreHLJzVHlG0cQHUx9g1RKPYer0hNVVQ/viewform?usp=sf_link)
-  - **Web** Link to your React App code in codesandbox
-  - **Mobile** Link to your App's GitHub repo
-- If for some reason your project needs any special instructions to run please include a README.md file in the root directory of your project.
+- Include a README.md file with instructions on how to run your project.
+- Submit your code compressed in a zip file using the [submission form](https://docs.google.com/forms/d/e/1FAIpQLSeY0nBqtXTV06b2CmAreHLJzVHlG0cQHUx9g1RKPYer0hNVVQ/viewform?usp=sf_link)
+  - **Web** make sure to remove your `node_modules/` folder before compressing
 - For any questions reach out to @Alejo in the [Pursuit Core Workspace](https://pursuit-core.slack.com/)
-
-## Resources
-
-- [React App in Codesandbox tutorial](https://react.school/hello-react)
