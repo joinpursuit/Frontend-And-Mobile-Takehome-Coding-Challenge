@@ -60,6 +60,7 @@ Use the details and endpoints of the API below to accomplish the Raffle App func
 | `GET`  | `/api/raffles/:id/participants` | Retrieve all participants of a raffle                      | n/a                                                                                                    |
 | `POST` | `/api/raffles/:id/participants` | Sign up a participant for a raffle                         | `{ "firstname": "Jane", "lastname": "Doe", "email": "jdoe@email.com", "phone": "+1 (917) 555-1234", }` |
 | `PUT`  | `/api/raffles/:id/winner`       | Pick a winner from the participants at random for a raffle | `{ "secret_token": "s3CrE7" }`                                                                         |
+| `GET`  | `/api/raffles/:id/winner`       | Retrieve the winner of a raffle                            |                                                                                                        |
 
 #### Notes
 
