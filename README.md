@@ -50,7 +50,7 @@ Create a client for a Raffle application. Users are able to:
 
 Use the details and endpoints of the API below to accomplish the Raffle App functionality. This API accepts and returns JSON payloads.
 
-**Root Endpoint**: `https://raffle-fs-app.herokuapp.com`
+**Root Endpoint**: `https://raffle-be.herokuapp.com`
 
 | Method | Endpoint                        | Description                                                | Example JSON Body Payload                                                                              |
 | ------ | ------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
