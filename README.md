@@ -100,9 +100,9 @@ Displays a form where a user (the raffle admin) can input their secret token and
 
 ## Submission Guidelines
 
-- We think this challenge would take ~7 hours to complete, so allocate your time appropriately.
-- You must submit your solution no later than **Monday, May 31st at 11:59pm.**
+- We think this challenge would take ~10 hours to complete, so allocate your time appropriately.
+- You must submit your solution no later than **Tuesday January 17th @ 10:00am**
 - Include a README.md file with instructions on how to run your project.
 - Submit your code compressed in a zip file using the [submission form](https://docs.google.com/forms/d/e/1FAIpQLSeY0nBqtXTV06b2CmAreHLJzVHlG0cQHUx9g1RKPYer0hNVVQ/viewform?usp=sf_link)
   - **Web** make sure to remove your `node_modules/` folder before compressing
-- For any questions reach out to @Alejo in the [Pursuit Core Workspace](https://pursuit-core.slack.com/)
+- For any questions reach out to @Billy Taggart in the [Pursuit Core Workspace](https://pursuit-core.slack.com/)
